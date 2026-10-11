@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Eyelash Solutions 2.0</title>
+    <meta name="description" content="Contact Eyelash Solutions 2.0 for lash appointments, mobile bookings and consultations in London." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="Eyelash Solutions 2.0 home">
+          <span class="brand-mark">L</span>
+          <span class="brand-text">
+            <strong data-config="brand-name">Eyelash Solutions 2.0</strong>
+            <small data-config="brand-tagline">Soft glam, beautifully made.</small>
+          </span>
+        </a>
+
+        <nav class="menu" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="#booking-modal" data-open-booking>Book now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container hero-copy">
+          <p class="eyebrow">Contact us</p>
+          <h1>Book your next glow-up.</h1>
+          <p>Whether you prefer a studio appointment or a mobile treatment, we’re here to help you find the right option.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container booking-grid">
+          <div class="contact-box">
+            <p class="eyebrow">Visit or book mobile</p>
+            <h3>London studio & mobile service</h3>
+            <div class="contact-list">
+              <div><strong>Location:</strong> <span data-config="location">Chelsea, London</span></div>
+              <div><strong>Phone:</strong> <span data-config="phone">+44 7700 900123</span></div>
+              <div><strong>Email:</strong> <span data-config="email">bookings@eyelashsolutions.example</span></div>
+            </div>
+
+            <iframe
+              class="map"
+              title="Eyelash Solutions 2.0 location"
+              src="https://www.google.com/maps?q=Chelsea%20London&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="form-box">
+            <p class="eyebrow">Send an enquiry</p>
+            <h3>Tell us about your ideal look.</h3>
+            <form action="contact.php" method="post">
+              <div class="field">
+                <label for="booking-type-contact">Booking type</label>
+                <select id="booking-type-contact" name="booking_type" required>
+                  <option value="studio_booking">Studio booking</option>
+                  <option value="studio_address">Studio address</option>
+                  <option value="mobile_service">Mobile service</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="service-contact">Service</label>
+                <select id="service-contact" name="service" required></select>
+              </div>
+
+              <div class="field">
+                <label for="room-contact">Room</label>
+                <select id="room-contact" name="room" required></select>
+              </div>
+
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" placeholder="Your full name" required />
+              </div>
+
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input id="phone" name="phone" type="tel" data-config-placeholder="phone" placeholder="+44 7700 900123" autocomplete="tel" required />
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us what look you'd like and whether you prefer studio or mobile treatment."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Send enquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <nav class="footer-menu" aria-label="Footer links">
+          <a href="staff.php">Log in</a>
+          <a href="profile.html">Account</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="legal-policy.html">Legal policy</a>
+        </nav>
+        <a class="network-credit" href="https://ddnetwork.co.uk">
+          <img src="images/DD_network-logo.png" alt="DD Network" width="44" height="44" loading="lazy" />
+          <span>© 2026 DD Network</span>
+        </a>
+        <div>Luxury lashes, beauty and confidence in London</div>
+      </div>
+    </footer>
+
+    <div class="booking-modal" id="booking-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-booking></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="booking-modal-title">
+        <button class="modal-close" type="button" data-close-booking aria-label="Close booking form">×</button>
+        <p class="eyebrow">Book your consultation</p>
+        <h3 id="booking-modal-title">Reserve your appointment</h3>
+        <form action="contact.php" method="post">
+          <div class="field">
+            <label for="modal-booking-type">Booking type</label>
+            <select id="modal-booking-type" name="booking_type" required>
+              <option value="studio_booking">Studio booking</option>
+              <option value="studio_address">Studio address</option>
+              <option value="mobile_service">Mobile service</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="modal-name">Your name</label>
+            <input id="modal-name" name="name" type="text" placeholder="Your full name" required />
+          </div>
+          <div class="field">
+            <label for="modal-email">Email address</label>
+            <input id="modal-email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="modal-phone">Phone number</label>
+            <input id="modal-phone" name="phone" type="tel" placeholder="+44 7700 900123" autocomplete="tel" required />
+          </div>
+          <div class="field">
+            <label for="modal-message">Brief message</label>
+            <textarea id="modal-message" name="message" placeholder="Tell us the look you want and your preferred appointment type."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send enquiry</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="template-config.js"></script>
+  </body>
+</html>

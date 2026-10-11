@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cart | Eyelash Solutions 2.0</title>
+    <meta name="description" content="Review your selected beauty services and request an appointment with Eyelash Solutions 2.0." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="Eyelash Solutions 2.0 home">
+          <span class="brand-mark">E</span>
+          <span class="brand-text">
+            <strong data-config="brand-name">Eyelash Solutions 2.0</strong>
+            <small data-config="brand-tagline">Soft glam, beautifully made.</small>
+          </span>
+        </a>
+        <nav class="menu" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="nav-cta" href="contact.html">Book now</a>
+      </div>
+    </header>
+
+    <main data-cart-page>
+      <section class="page-hero">
+        <div class="container hero-copy">
+          <p class="eyebrow">Your selection</p>
+          <h1>Service cart</h1>
+          <p>Review your services, choose how you’d like to visit and send your booking request.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <p class="cart-status manager-notice" data-cart-status role="status" hidden></p>
+          <div class="cart-layout">
+            <section class="cart-list-section" aria-labelledby="cart-items-title">
+              <h2 id="cart-items-title">Selected services</h2>
+              <div class="cart-list" data-cart-list></div>
+              <div class="cart-empty info-box" data-cart-empty>
+                <h3>Your cart is empty</h3>
+                <p>Choose a service before continuing to checkout.</p>
+                <a class="btn btn-primary" href="services.html">Browse services</a>
+              </div>
+            </section>
+
+            <aside class="cart-checkout-panel" aria-labelledby="checkout-title">
+              <h2 id="checkout-title">Booking details</h2>
+              <dl class="cart-totals">
+                <div><dt>Services</dt><dd data-cart-subtotal>£0.00</dd></div>
+                <div><dt>Deposit <span data-deposit-percent>50%</span></dt><dd data-cart-deposit>£0.00</dd></div>
+                <div class="cart-balance"><dt>Remaining balance</dt><dd data-cart-balance>£0.00</dd></div>
+              </dl>
+              <p class="payment-instructions" data-payment-instructions></p>
+
+              <form action="contact.php" method="post" data-cart-checkout hidden>
+                <input type="hidden" name="cart_items" value="" />
+                <div class="field">
+                  <label for="cart-booking-type">Booking type</label>
+                  <select id="cart-booking-type" name="booking_type" required>
+                    <option value="studio_booking">Studio booking</option>
+                    <option value="studio_address">Studio address</option>
+                    <option value="mobile_service">Mobile service</option>
+                  </select>
+                </div>
+                <div class="field" hidden>
+                  <label for="cart-service">Service</label>
+                  <select id="cart-service" name="service"></select>
+                </div>
+                <div class="field">
+                  <label for="cart-room">Studio room</label>
+                  <select id="cart-room" name="room" required></select>
+                </div>
+                <div class="field">
+                  <label for="cart-specialist">Assigned specialist</label>
+                  <select id="cart-specialist" name="mobile_staff" required></select>
+                </div>
+                <div class="field" hidden>
+                  <label for="cart-postcode">Customer postcode</label>
+                  <input id="cart-postcode" name="customer_postcode" type="text" placeholder="SW1A 1AA" autocomplete="postal-code" maxlength="10" />
+                </div>
+                <div class="field">
+                  <label for="cart-name">Your name</label>
+                  <input id="cart-name" name="name" type="text" autocomplete="name" required />
+                </div>
+                <div class="field">
+                  <label for="cart-email">Email address</label>
+                  <input id="cart-email" name="email" type="email" autocomplete="email" required />
+                </div>
+                <div class="field">
+                  <label for="cart-phone">Phone number</label>
+                  <input id="cart-phone" name="phone" type="tel" autocomplete="tel" required />
+                </div>
+                <div class="field">
+                  <label for="cart-message">Appointment note</label>
+                  <textarea id="cart-message" name="message" placeholder="Preferred day, time or anything we should know."></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit" data-checkout-submit>Continue</button>
+              </form>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <nav class="footer-menu" aria-label="Footer links">
+          <a href="staff.php">Log in</a>
+          <a href="profile.html">Account</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="legal-policy.html">Legal policy</a>
+        </nav>
+        <a class="network-credit" href="https://ddnetwork.co.uk">
+          <img src="images/DD_network-logo.png" alt="DD Network" width="44" height="44" loading="lazy" />
+          <span>© 2026 DD Network</span>
+        </a>
+        <div>Luxury lashes, beauty and confidence in London</div>
+      </div>
+    </footer>
+
+    <script src="template-config.js"></script>
+  </body>
+</html>

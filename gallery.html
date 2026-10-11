@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery | Eyelash Solutions 2.0</title>
+    <meta name="description" content="Browse our beauty gallery and recent lash transformations from Eyelash Solutions 2.0." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="Eyelash Solutions 2.0 home">
+          <span class="brand-mark">L</span>
+          <span class="brand-text">
+            <strong data-config="brand-name">Eyelash Solutions 2.0</strong>
+            <small data-config="brand-tagline">Soft glam, beautifully made.</small>
+          </span>
+        </a>
+
+        <nav class="menu" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="#booking-modal" data-open-booking>Book now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container hero-copy">
+          <p class="eyebrow">Gallery</p>
+          <h1>Results that feel effortless.</h1>
+          <p>Browse a curated lookbook of soft glam lashes, refined enhancements and polished beauty finishes.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container gallery-grid">
+          <article class="gallery-card">
+            <img src="images/image_46603850-6f6e-46bd-802b-24c0c7e247df.png" alt="Soft volume lash extensions on a hazel eye" />
+            <div class="gallery-info">
+              <h3>Soft glam</h3>
+              <p>Lightweight, polished lashes designed for everyday confidence.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/image_cbf76949-294b-4efc-8dd3-d14374c9fec6%20(1).png" alt="Full, dramatic lash extensions with a softly defined brow" />
+            <div class="gallery-info">
+              <h3>Luxury finish</h3>
+              <p>Defined length and lift for a premium, camera-ready look.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/image_b4132b6f-9efd-4c49-987c-2466dc02fc82.png" alt="Natural lash lift with a softly groomed brow" />
+            <div class="gallery-info">
+              <h3>Bridal glow</h3>
+              <p>Elegant lashes made for special events, weddings and celebrations.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/lash-lift-tint.png" alt="Lifted and tinted lashes with a natural curl" />
+            <div class="gallery-info">
+              <h3>Natural lift</h3>
+              <p>Gentle enhancement for a fresh-faced, open-eye finish.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/image_dfdb38f5-885d-4b33-9e21-e63a774cf374.png" alt="Wispy lash extensions framing a warm brown eye" />
+            <div class="gallery-info">
+              <h3>Event-ready</h3>
+              <p>High-impact lashes with a refined finish for occasions.</p>
+            </div>
+          </article>
+
+          <article class="gallery-card">
+            <img src="images/brow-lamination-tint.png" alt="Brushed-up, softly defined brows with natural-looking lashes" />
+            <div class="gallery-info">
+              <h3>Brow artistry</h3>
+              <p>Feathered brow definition paired with a soft lash finish.</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <nav class="footer-menu" aria-label="Footer links">
+          <a href="staff.php">Log in</a>
+          <a href="profile.html">Account</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="legal-policy.html">Legal policy</a>
+        </nav>
+        <a class="network-credit" href="https://ddnetwork.co.uk">
+          <img src="images/DD_network-logo.png" alt="DD Network" width="44" height="44" loading="lazy" />
+          <span>© 2026 DD Network</span>
+        </a>
+        <div>Luxury lashes, beauty and confidence in London</div>
+      </div>
+    </footer>
+
+    <div class="booking-modal" id="booking-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-booking></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="booking-modal-title">
+        <button class="modal-close" type="button" data-close-booking aria-label="Close booking form">×</button>
+        <p class="eyebrow">Book your consultation</p>
+        <h3 id="booking-modal-title">Reserve your appointment</h3>
+        <form action="contact.php" method="post">
+          <div class="field">
+            <label for="modal-name">Your name</label>
+            <input id="modal-name" name="name" type="text" placeholder="Your full name" required />
+          </div>
+          <div class="field">
+            <label for="modal-email">Email address</label>
+            <input id="modal-email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="modal-phone">Phone number</label>
+            <input id="modal-phone" name="phone" type="tel" placeholder="+44 7700 900123" autocomplete="tel" required />
+          </div>
+          <div class="field">
+            <label for="modal-message">Brief message</label>
+            <textarea id="modal-message" name="message" placeholder="Tell us the look you want and your preferred appointment type."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send enquiry</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="template-config.js"></script>
+  </body>
+</html>

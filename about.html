@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Eyelash Solutions 2.0</title>
+    <meta name="description" content="Meet the founder and mission behind Eyelash Solutions 2.0, a luxury lash and beauty studio in London." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="index.html" aria-label="Eyelash Solutions 2.0 home">
+          <span class="brand-mark">L</span>
+          <span class="brand-text">
+            <strong data-config="brand-name">Eyelash Solutions 2.0</strong>
+            <small data-config="brand-tagline">Soft glam, beautifully made.</small>
+          </span>
+        </a>
+
+        <nav class="menu" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="#booking-modal" data-open-booking>Book now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container hero-copy">
+          <p class="eyebrow">About us</p>
+          <h1>Beauty that feels personal.</h1>
+          <p>We create lash looks that feel polished, comfortable and authentically you, with care that fits around your real life.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container story-grid">
+          <div class="story-box">
+            <p class="eyebrow">Our story</p>
+            <h3>Thoughtful beauty, delivered with confidence.</h3>
+            <p>
+              Eyelash Solutions 2.0 began with a simple goal: to help women feel more confident, more awake and more beautiful without the effort of daily mascara. Founder <span data-config="founder">Maya Laurent</span> created the business around a calm, tailored experience that puts comfort first.
+            </p>
+          </div>
+
+          <div class="story-box">
+            <p class="eyebrow">Mission</p>
+            <h3>To enhance your natural beauty, not mask it.</h3>
+            <p>
+              We focus on lash artistry that complements your face shape, eye style and everyday routine. Our mission is to help every client leave feeling lifted, refreshed and ready for the day ahead.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container value-grid">
+          <div class="info-box">
+            <p class="eyebrow">01</p>
+            <h3>Natural results</h3>
+            <p>We shape every set to create a soft enhancement, never an overdone finish.</p>
+          </div>
+
+          <div class="info-box">
+            <p class="eyebrow">02</p>
+            <h3>Comfort-led care</h3>
+            <p>Individual application, careful prep and aftercare guidance keep every service gentle.</p>
+          </div>
+
+          <div class="info-box">
+            <p class="eyebrow">03</p>
+            <h3>Flexible service</h3>
+            <p>Studio appointments and mobile visits give you the convenience you need.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container meta-grid">
+          <div class="info-box">
+            <p class="eyebrow">Why clients choose us</p>
+            <h3>A service designed around your schedule.</h3>
+            <ul class="meta-list">
+              <li>Mobile appointments available in your home or workplace</li>
+              <li>Clear consultation before every treatment</li>
+              <li>Premium mink and tailored lash design</li>
+              <li>Friendly, professional support throughout</li>
+            </ul>
+          </div>
+
+          <div class="info-box">
+            <p class="eyebrow">The experience</p>
+            <h3>Calm, expert and polished.</h3>
+            <p>
+              From the moment you arrive, we focus on comfort, communication and beautiful results. Every treatment is designed to feel relaxing and easy while still delivering a premium finish.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <nav class="footer-menu" aria-label="Footer links">
+          <a href="staff.php">Log in</a>
+          <a href="profile.html">Account</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="legal-policy.html">Legal policy</a>
+        </nav>
+        <a class="network-credit" href="https://ddnetwork.co.uk">
+          <img src="images/DD_network-logo.png" alt="DD Network" width="44" height="44" loading="lazy" />
+          <span>© 2026 DD Network</span>
+        </a>
+        <div>Luxury lashes, beauty and confidence in London</div>
+      </div>
+    </footer>
+
+    <div class="booking-modal" id="booking-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-booking></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="booking-modal-title">
+        <button class="modal-close" type="button" data-close-booking aria-label="Close booking form">×</button>
+        <p class="eyebrow">Book your consultation</p>
+        <h3 id="booking-modal-title">Reserve your appointment</h3>
+        <form action="contact.php" method="post">
+          <div class="field">
+            <label for="modal-name">Your name</label>
+            <input id="modal-name" name="name" type="text" placeholder="Your full name" required />
+          </div>
+          <div class="field">
+            <label for="modal-email">Email address</label>
+            <input id="modal-email" name="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="field">
+            <label for="modal-phone">Phone number</label>
+            <input id="modal-phone" name="phone" type="tel" placeholder="+44 7700 900123" autocomplete="tel" required />
+          </div>
+          <div class="field">
+            <label for="modal-message">Brief message</label>
+            <textarea id="modal-message" name="message" placeholder="Tell us the look you want and your preferred appointment type."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send enquiry</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="template-config.js"></script>
+  </body>
+</html>
