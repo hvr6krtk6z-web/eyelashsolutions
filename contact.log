@@ -1,0 +1,251 @@
+[2026-10-11 01:56:42]
+New enquiry from Luna & Lace Studio
+
+Name: Test User
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Hello there
+
+
+[2026-10-11 02:01:37]
+New enquiry from Luna & Lace Studio
+
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+I want a luxury lash set.
+
+
+[2026-10-11 02:03:00] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+I want a luxury lash set.
+
+
+[2026-10-11 02:03:32] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+I want a luxury lash set.
+
+
+[2026-10-11 02:03:32] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+I want a luxury lash set.
+
+
+[2026-10-11 02:07:37] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:07:37] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:07:37] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:07:37] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:07:47] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:07:47] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:09:42] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Booking type: Studio booking
+Service: Classic lash
+Room: Rose Room
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:09:42] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Booking type: Studio booking
+Service: Classic lash
+Room: Rose Room
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:13:21] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Service: Classic lash
+Room: Mobile service
+Mobile specialist: Amy Wilson
+Customer postcode: SW3 2AA
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:13:21] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Service: Classic lash
+Room: Mobile service
+Mobile specialist: Amy Wilson
+Customer postcode: SW3 2AA
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:13:21] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Service: Classic lash
+Room: Mobile service
+Mobile specialist: Amy Wilson
+Customer postcode: EH1 1AA
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:13:21] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Service: Classic lash
+Room: Mobile service
+Mobile specialist: Amy Wilson
+Customer postcode: EH1 1AA
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:13:57] SMTP send failed: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Service: Classic lash
+Room: Mobile service
+Mobile specialist: Amy Wilson
+Customer postcode: SW3 2AA
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
+[2026-10-11 02:13:57] mail delivery failed
+New enquiry from Luna & Lace Studio
+
+Booking type: Mobile service
+Service: Classic lash
+Room: Mobile service
+Mobile specialist: Amy Wilson
+Customer postcode: SW3 2AA
+Name: Test Customer
+Email: test@example.com
+Phone: +447700900123
+
+Message:
+Luxury set
+
+
